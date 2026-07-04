@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project.urls]
+Homepage = "https://github.com/qzou1222-alt/bwcompiler"
+Issues = "https://github.com/qzou1222-alt/bwcompiler/issues"
+[project]
+name = "bwcompiler"
+version = "0.1.0"
+authors = [
+  { name="Victor Zou" }
+]
+description = "Compile a .bw file into a Python dictionary."
+readme = "ReadMe.md"
+requires-python = ">=3.10"
+
+dependencies = []
+license = {text = "MIT"}
+keywords = [
+  "language",
+  "dsl",
+  "Victor Zou",
+  "vzpy",
+  "python",
+  "bw",
+  "world",
+  "loadbw",
+  "compiler"
+]
+[tool.setuptools.packages.find]
+where = ["."]
