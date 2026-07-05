@@ -1,4 +1,4 @@
-# py3dbuilder
+# bwcompiler
 
 Compile a .bw file into a Python dictionary.
 
